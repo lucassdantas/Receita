@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+/>
+    <title>Receita</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            border: border-box;
+        }
+        body{
+            background-color: #EAEAEA;
+            font-family: "Roboto", sans-serif;
+        }
+        .titulo, .subtitulo, .footer{
+            text-align: center;
+        }
+        .receita{
+            background-color: white;
+            margin: 0% 10%;
+            padding: 10% 15%;
+        }
+        .titulo, .subtitulo{
+            color: #1B1B1B;
+        }
+        #imagemdacomida {
+            width: 100%;
+            height: 350px;
+            border-radius: 10px;
+        }
+        #legendaimg {
+           color:#8F8F8F;
+        }
+        #legendaimg{
+            font-size: 12px;
+            text-align: right;
+            margin-bottom: 10%;
+        }
+        .titulo{
+            font-size: 28px;
+            margin-bottom: 5%;
+        }
+        .subtitulo{
+            font-size: 20px;
+            margin-bottom: 10%;
+        }
+        p, ol, ul{
+            font-size:16px;
+            margin-bottom: 5%;
+        }
+        li{
+            line-height: 8vh;
+        }
+        footer{
+            font-size: 12px;
+            height: 15vh;
+            padding: 2% 35%;
+        }
+    </style>
+</head>
+<body>
+    <section class="receita">
+        <h1 class="titulo" style="text-transform:uppercase">Receita de Purê de batata.</h1>
+        <figure class="ImagemPrincipal">    
+            <img src="https://image.freepik.com/fotos-gratis/vista-superior-de-pure-de-batata-com-fatias-de-frango-e-palavra-saborosa-na-mesa-marrom_140725-104267.jpg" alt="Imagem" id="imagemdacomida">
+            <figcaption id="legendaimg">Imagem do purê</figcaption>
+        </figure>
+        <section class="ingredientes">  
+            <h2 class="subtitulo" style="text-transform:uppercase">Ingredientes</h2>
+            <ul id="lIngredientes">
+                <li>1 kg de batatao</li>
+                <li>2 colheres (sopa) de margarina</li>
+                <li>sal a gosto</li>
+                <li>1 dente de alho espremido</li>
+            </ul>
+        </section>
+        <section class="ModoDePreparo">  
+            <h2  class="subtitulo" style="text-transform:uppercase">Modo de preparo</h2>
+            <ol id="lMododepreparo">
+                <li>Cozinhe as batatas até ficarem bem moles.</li>
+                <li>Descasque-as ainda quentes e esprema as batatas no espremedor</li>
+                <li>Despeje as batatas em um recipiente e acrescente a margarina, o sal e o alho, e mexa até que a margarina derreta por completo.</li>
+                <li>Acrescente o leite aos poucos e continue mexendo</li>
+            </ol>
+        </section>
+        <section class="informacao">  
+            <h2>Informações adicionais</h2>
+            <p>A batata pode ser preparada de diversas formas. O purê de batata é uma delas!</p>
+        </section>
+    </section>
+    <footer class="footer">
+        <p class="footer">Desenvolvido por <a href="https://github.com/lucassdantas">Lucas Dantas</a></p>
+    </footer>
+</body>
+</html>
